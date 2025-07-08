@@ -3,9 +3,9 @@ import joblib
 import pandas as pd
 
 #load
-model = joblib.load("model.pkl")
+model = joblib.load("model (1).pkl")
 y = joblib.load("y.pkl")
-le1 = joblib.load("le1.pkl")
+le1 = joblib.load("le1 (1).pkl")
 le4 = joblib.load("le4.pkl")
 
 Time_spent_Alone = st.number_input("Time_spent_Alone" , step= 1.0 ,min_value = 0.0 , max_value = 12.0)
